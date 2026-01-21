@@ -151,7 +151,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// Kontrol tombol virtual
+// control tombol virtual
 document.getElementById('up').addEventListener('click', () => direction = { x: 0, y: -1 });
 document.getElementById('down').addEventListener('click', () => direction = { x: 0, y: 1 });
 document.getElementById('left').addEventListener('click', () => direction = { x: -1, y: 0 });
